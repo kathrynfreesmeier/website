@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>KAT</title>
+        <title>I AM KAF</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css">
+        <script src="{{ url_for('static', filename='js/particles.min.js') }}"></script>
     </head>
     <body>
-        <div id="wrap">
+        <div class="wrap">
             <div id="main-text">KATHRYN</div>
-            <div id="coming-soon">COMING SOON.</div>
+            <div id="coming-soon">COMING SOON...</div>
         </div>
+        <div id="particles-js"></div>
         <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     </body>
 </html>

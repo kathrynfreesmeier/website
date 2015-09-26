@@ -6,10 +6,33 @@
 }
 
 body {
-    background-color: #323431;
+    background-color: #3EA99F;
 }
 
-#wrap {
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.particles-js-canvas-el {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.wrap {
     /* Center vertically and horizontally in page */
     left: 50%;
     top: 50%;
@@ -23,18 +46,19 @@ body {
     position: absolute;
 
     width: 100%;
+    z-index: 999;
 }
 
 #main-text {
-    color: #5DEC18;
-    font-size: 100pt;
-    font-size: 20vw;
-    font-weight: 900;
+    color: #EBF4FA;
+    font-size: 50pt;
+    font-size: 10vw;
+    font-weight: 400;
 }
 
 #coming-soon {
-    color: #2C8800;
-    font-size: 30pt;
-    font-size: 5vw;
-    font-weight: 300;
+    color: #EBF4FA;
+    font-size: 20pt;
+    font-size: 4vw;
+    font-weight: 200;
 }
